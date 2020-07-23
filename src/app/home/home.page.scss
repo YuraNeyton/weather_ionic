@@ -25,3 +25,102 @@
 #container a {
   text-decoration: none;
 }
+
+.ok_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header_title {
+  color: #f4f5f8;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.searchbar {
+  --icon-color: #5260ff;
+  --cancel-button-color: #FF9638;
+  --clear-button-color: #0258C2;
+  --placeholder-color: #5260ff;
+  --placeholder-font-style: #0258C2;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.weather_icon {
+  height: 60px;
+  width: 60px;
+}
+
+.city_item_coords {
+  --color: #000000b3;
+  font-size: 11px
+}
+
+.item_not_found {
+ color: #ffffff;
+}
+
+.card_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temperature {
+  padding: 5px 5px 10px 5px;
+  font-size: 30px;
+}
+
+.card_content_title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card_content_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.card_content_info_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.days_cart_content_item_date {
+  font-size: 15px;
+}
+
+.days_cart_content_item_temp {
+  font-size: 12px;
+}
+
+.search_cities_list {
+  background: #5260ff;
+}
+
+.segment {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card_subtitle_date {
+  position: absolute;
+  bottom: 60px;
+}
+
+.days_cart_content_list {
+  background: #3880ff;
+}
+
+.card_title_block {
+  position: absolute;
+  bottom: 145px;
+}
+
+.weather_card {
+  position: relative;
+}
